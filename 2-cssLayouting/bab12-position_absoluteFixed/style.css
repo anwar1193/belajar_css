@@ -1,0 +1,53 @@
+.navbar{
+    width: 100%;
+    background-color: skyblue;
+    padding: 10px;
+    position: fixed;
+    top : 0px;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.kotak{
+    width: 600px;
+    border: 2px solid blue;
+    margin: auto;
+    position: relative;
+}
+
+.satu, .dua, .tiga{
+    margin: auto;
+    font-size: 60px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.dua{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    position: absolute;
+    top: 0px;
+    left: 0px;;
+}
+
+.tiga{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}

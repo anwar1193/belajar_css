@@ -1,0 +1,12 @@
+ul#sarapan li{
+    color: green;
+}
+
+/* kalau hanya favorit, akan kalah spesifik, karena id lebih spesifik dari class */
+/* li.favorit{
+    color: red;
+} */
+
+ul#sarapan li.favorit{
+    color: red;
+}

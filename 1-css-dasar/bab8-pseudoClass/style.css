@@ -1,0 +1,34 @@
+.klik{
+    color: red;
+}
+
+.klik:hover{
+    color: blue;
+}
+
+.klik:active{
+    color: orange;
+}
+
+/* Genap berwarna merah */
+li:nth-child(even) a{
+    color: red;
+}
+
+/* ganjil berwarna biru */
+li:nth-child(odd) a{
+    color: green;
+}
+
+/* ganjil jika di arahkan kursor */
+li:nth-child(odd) a:hover{
+    color: orange;
+}
+
+p:first-of-type{
+    color: red;
+}
+
+p:last-of-type{
+    color: blue;
+}

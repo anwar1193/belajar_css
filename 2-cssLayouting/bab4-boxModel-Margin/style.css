@@ -1,0 +1,16 @@
+div{
+    /* atas bawah 0, kiri kanan auto (di tengah) */
+    margin: 0px auto; 
+}
+
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+}
+
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}

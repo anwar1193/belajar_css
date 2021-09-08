@@ -1,0 +1,58 @@
+.gambar{
+    float: left;
+    margin-right: 20px;
+}
+
+.artikel{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    margin: 5px;
+}
+
+.bendera_italy{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+div.italy1{
+    width: 100px;
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+div.italy2{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+div.italy3{
+    width: 100px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+.bersihkan_float{
+    clear: left;
+}

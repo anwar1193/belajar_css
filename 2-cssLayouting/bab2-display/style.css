@@ -1,0 +1,17 @@
+a.link1{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+h2, p{
+    background-color: greenyellow;
+    width: 50%;
+    /* display: none; */
+}
+
+ul li{
+    display: inline-block;
+    background-color: skyblue;
+}
