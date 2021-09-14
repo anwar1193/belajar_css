@@ -1,0 +1,12 @@
+.kotak{
+    width: 400px;
+    height: 200px;
+    background-image: radial-gradient(red, yellow, green);
+    margin-bottom: 10px;
+}
+
+.kotak2{
+    width: 400px;
+    height: 200px;
+    background-image: radial-gradient(circle, red, yellow, green);
+}

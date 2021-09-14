@@ -1,0 +1,25 @@
+div{
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.kotak1{
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.kotak2{
+    background-image: linear-gradient(to bottom, red, blue);
+}
+
+.kotak3{
+    background-image: linear-gradient(to right, red, yellow, green);
+}
+
+.kotak4{
+    background-image: linear-gradient(to right, red 70%, blue);
+}
+
+.kotak5{
+    background-image: linear-gradient(to bottom right, red, blue);
+}

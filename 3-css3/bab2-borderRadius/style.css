@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+}
+.container{
+    width: 85%;
+    border: 5px dashed green;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10px auto;
+}
+
+.br1, .br2, .br3, .br4, .br5, .br6, .br7{
+    float: left;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.br1{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+
+.br2{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.br3{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border-radius: 50% 50% 50% 0;
+}
+
+.br4{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+.br5{
+    width: 200px;
+    height: 200px;
+    background-image: url(img/profile.jpeg);
+    background-size: cover;
+    border: 5px solid blue;
+    box-sizing: border-box;
+    border-radius: 0 50% 0 50%;
+}
+
+
+.br6{
+    width: 200px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 200px 200px 0 0;
+}
+
+.br7{
+    width: 200px;
+    height: 100px;
+    background-color: salmon;
+    border-radius: 0 0 200px 200px;
+    margin-top: 100px;
+}
+
+.clear{
+    clear: both;
+}

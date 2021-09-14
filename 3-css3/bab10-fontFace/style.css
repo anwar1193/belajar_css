@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Font Anwar";
+    src: url('font/alexbrush-regular-webfont.woff') format('truetype');
+}
+
+.font-faceku{
+    font-family: "Font Anwar", Arial;
+}
+
+.font-google{
+    font-family: 'Lobster', cursive;
+}

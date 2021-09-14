@@ -1,0 +1,87 @@
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    margin: 20px auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.kotak1{
+    background-color: aqua;
+    transition: 1s;
+}
+
+.kotak1:hover{
+    transform: scale(2);
+}
+
+.kotak2{
+    background-color: antiquewhite;
+    transition: 1s;
+}
+
+.kotak2:hover{
+    transform: scaleX(2);
+}
+
+.kotak3{
+    background-color: aquamarine;
+    transition: 1s;
+}
+
+.kotak3:hover{
+    transform: rotate(360deg);
+}
+
+.kotak4{
+    background-color: bisque;
+    transition: 1s;
+}
+
+.kotak4:hover{
+    transform: rotateX(360deg);
+}
+
+.kotak5{
+    background-color: blue;
+    transition: 1s;
+}
+
+.kotak5:hover{
+    transform: rotateY(360deg);
+}
+
+.kotak6{
+    background-color: blueviolet;
+    transition: 1s;
+}
+
+.kotak6:hover{
+    transform: skew(-45deg);
+}
+
+.kotak7{
+    background-color: brown;
+    transition: 1s;
+}
+
+.kotak7:hover{
+    transform: translate(40px);
+}
+
+.kotak8{
+    background-color: burlywood;
+    transition: 1s;
+}
+
+.kotak8:hover{
+    transform: translateX(40px) translateY(40px);
+}

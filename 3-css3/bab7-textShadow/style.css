@@ -1,0 +1,23 @@
+.text1{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 200px;
+    text-shadow: 0 0 10px yellow;
+}
+
+.text2{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    line-height: 200px;
+    text-shadow: 0 5px 1px rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    box-sizing: border-box;
+}
