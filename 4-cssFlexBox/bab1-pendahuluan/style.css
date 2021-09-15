@@ -1,0 +1,20 @@
+.container{
+    width: 700px;
+    /* height: 300px; */
+    border: 4px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: stretch; */
+}
+
+.container div{
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    margin: 2px;
+    text-align: center;
+    line-height: 150px;
+}
