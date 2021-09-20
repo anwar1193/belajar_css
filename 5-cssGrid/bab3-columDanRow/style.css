@@ -1,0 +1,19 @@
+.container{
+    width: 60%;
+    margin: 10px auto;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 1fr 2fr 3fr;
+}
+
+.item{
+    background-color: salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even){
+    background-color: skyblue;
+}

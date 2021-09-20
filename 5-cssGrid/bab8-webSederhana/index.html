@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Responsive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Responsive Web</h2>
+                <p class="sub-heading">Hoodie & T-Shirt</p>
+            </div>
+
+            <div class="features feature-1">
+                <h4 class="price">IRD 250K</h4>
+                <p class="item">Hoodie</p>
+            </div>
+
+            <div class="features feature-2">
+                <h4 class="price">IRD 150K</h4>
+                <p class="item">T-Shirt</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="brand">
+                <h1>Anwar Flash</h1>
+            </div>
+
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <!-- Services -->
+        <section class="services">
+
+            <div class="service">
+                <div class="icon">
+                    <img src="img/icon.png" alt="">
+                </div>
+
+                <h3>Tutorial</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro autem saepe numquam labore a.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <div class="icon">
+                    <img src="img/icon.png" alt="">
+                </div>
+
+                <h3>Tutorial</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro autem saepe numquam labore a.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <div class="icon">
+                    <img src="img/icon.png" alt="">
+                </div>
+
+                <h3>Tutorial</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro autem saepe numquam labore a.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <div class="icon">
+                    <img src="img/icon.png" alt="">
+                </div>
+
+                <h3>Tutorial</h3>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate porro autem saepe numquam labore a.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/1.png" alt="">
+            <img src="img/2.png" alt="">
+            <img src="img/3.png" alt="">
+            <img src="img/4.png" alt="">
+            <img src="img/5.png" alt="">
+            <img src="img/6.png" alt="">
+        </section>
+
+    </div>
+    
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function(){
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>

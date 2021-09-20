@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    height: 700px;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* justify-items: stretch; */
+    /* align-items: center; */
+    /* place-items: center end; */
+    /* justify-content: space-around; */
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
