@@ -1,54 +1,30 @@
-*{
-    padding: 0;
-    margin: 0;
+.notif{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    bottom: 100px;
+    right: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.float1 img{
-    float: left;
-    margin-right: 10px;
-}
-
-.kotak{
-    margin-top: 20px;
-    width: 100px;
-    height: 100px;
-    background-color: salmon;
-    float: left;
-    text-align: center;
-    line-height: 100px;
-    margin-right: 5px;
-}
-
-.clear{
-    clear: both;
-}
-
-.float3{
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 300px;
-    height: 200px;
-    border: 1px solid silver;
-}
-
-.float3 .bendera{
-    float: left;
-}
-
-.float3 .bendera1{
-    width: 100px;
-    height: 200px;
-    background-color: green;
-}
-
-.float3 .bendera2{
-    width: 100px;
-    height: 200px;
+.notif span{
+    display: inline-block;
     background-color: white;
+    padding: 5px;
+    color: red;
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    right: -20px;
 }
 
-.float3 .bendera3{
-    width: 100px;
-    height: 200px;
-    background-color: red;
+.notif span:hover{
+    color: black;
+    cursor: pointer;
 }
